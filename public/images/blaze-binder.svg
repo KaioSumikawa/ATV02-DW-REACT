@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#05070d"/>
+  <path d="M120 220 C150 100 250 100 280 220" fill="#27100e"/>
+  <path d="M200 60 C220 160 230 160 260 220" stroke="#f05f2c" stroke-width="16" fill="none"/>
+  <path d="M140 120 C170 90 230 90 260 120" stroke="#fbbf7a" stroke-width="14" fill="none"/>
+  <circle cx="200" cy="160" r="26" fill="#f05f2c"/>
+  <text x="200" y="285" text-anchor="middle" fill="#fbbf7a" font-family="Arial" font-size="28">Blaze Binder</text>
+</svg>

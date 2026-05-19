@@ -1,0 +1,67 @@
+.detailShell {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  background: rgba(10, 12, 19, 0.96);
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.22);
+}
+
+.hero {
+  display: grid;
+  justify-items: center;
+  background: linear-gradient(180deg, rgba(212, 159, 77, 0.12), rgba(10, 12, 19, 0.9));
+  border-radius: 24px;
+  padding: 1.5rem;
+}
+
+.hero img {
+  width: min(100%, 460px);
+  border-radius: 20px;
+}
+
+.content {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.faction {
+  display: inline-flex;
+  padding: 0.35rem 0.8rem;
+  border-radius: 999px;
+  color: var(--accent-strong);
+  background: rgba(212, 159, 77, 0.12);
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+}
+
+.content h1 {
+  font-size: clamp(2rem, 3vw, 3rem);
+}
+
+.description {
+  color: var(--muted);
+  line-height: 1.85;
+}
+
+.metaGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.metaGrid h3 {
+  margin-bottom: 0.5rem;
+  color: var(--accent);
+}
+
+.metaGrid p {
+  color: var(--text);
+}
+
+@media (max-width: 760px) {
+  .metaGrid {
+    grid-template-columns: 1fr;
+  }
+}
