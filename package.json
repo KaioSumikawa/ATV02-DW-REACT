@@ -1,15 +1,27 @@
 {
-  "name": "aqw-codex",
+  "name": "pokedex-dark-fantasy",
   "version": "1.0.0",
   "private": true,
+  "description": "Pokédex Dark Fantasy desenvolvida com React e Next.js consumindo a PokéAPI pública.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.2.5",
     "react": "18.3.1",
     "react-dom": "18.3.1"
-  }
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "pokemon",
+    "pokedex",
+    "pokeapi",
+    "dark-fantasy"
+  ],
+  "author": "Kaio Toshiyuki",
+  "license": "MIT"
 }
