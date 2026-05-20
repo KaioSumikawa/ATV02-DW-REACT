@@ -1,40 +1,146 @@
-# AQW Codex
+# Pokédex Dark Fantasy
 
-**AQW Codex** é um projeto em React com Next.js inspirado no jogo AdventureQuest Worlds.
-O site apresenta uma lista de classes, busca em tempo real e páginas de detalhes dinâmicas.
+**Pokédex Dark Fantasy** é um projeto desenvolvido em React com Next.js que consome dados da PokéAPI pública.
 
-## Tecnologias usadas
+O projeto apresenta uma Pokédex com visual inspirado em MMORPGs e dark fantasy, utilizando uma interface estilizada com tema sombrio, detalhes dourados e componentes reutilizáveis.
+
+# Tecnologias utilizadas
 
 - React
 - Next.js
+- JavaScript
 - CSS Modules
 - CSS global
-- JavaScript puro
-- API mock local com JSON
+- PokéAPI
 
-## Como rodar
+# Funcionalidades
 
-1. Abra o terminal no diretório do projeto.
-2. Execute `npm install`.
-3. Execute `npm run dev`.
-4. Abra o navegador em `http://localhost:3000`.
+- Listagem de pokémons consumindo API pública
+- Busca de pokémons em tempo real
+- Página de detalhes dinâmica
+- Cards responsivos estilizados
+- Loading state
+- Navegação entre páginas
+- Interface dark fantasy inspirada em MMORPG
 
-## Estrutura de pastas
+# Hooks utilizados
 
-- `components/` - componentes reutilizáveis
-- `pages/` - rotas do Next.js
-- `styles/` - CSS global e modules
-- `public/` - imagens e dados mock
+O projeto utiliza os hooks do React:
 
-## O que foi implementado
+- `useState`
+- `useEffect`
 
-- Página inicial com lista de classes
-- Busca simples por nome ou facção
-- Cards estilizados e responsivos
-- Página de detalhes com rota dinâmica
-- Uso de `useState`, `useEffect` e props
-- Tema dark fantasy inspirado em AQW
+---
 
-## Observações
+# Uso de Props
 
-A lista de classes é carregada de um arquivo JSON estático em `public/data/classes.json`, simulando um consumo de API local.
+Os componentes recebem dados através de props.
+
+Exemplo:
+
+```jsx
+<PokemonCard pokemon={pokemon} />
+```
+
+# Consumo da API
+
+API utilizada:
+
+https://pokeapi.co/
+
+Endpoint principal:
+
+```txt
+https://pokeapi.co/api/v2/pokemon?limit=151
+```
+
+Endpoint de detalhes:
+
+```txt
+https://pokeapi.co/api/v2/pokemon/{id}
+```
+
+# Como executar o projeto
+
+## 1. Clone o repositório
+
+```bash
+git clone https://github.com/seu-usuario/ATV02-DW-REACT.git
+```
+
+## 2. Entre na pasta
+
+```bash
+cd ATV02-DW-REACT
+```
+
+## 3. Instale as dependências
+
+```bash
+npm install
+```
+
+## 4. Execute o projeto
+
+```bash
+npm run dev
+```
+
+## 5. Abra no navegador
+
+```txt
+http://localhost:3000
+```
+
+---
+
+# Estrutura de pastas
+
+```txt
+components/
+├── Navbar
+├── PokemonCard
+├── PokemonList
+├── PokemonDetails
+└── Footer
+
+pages/
+├── index.js
+└── pokemon/
+    └── [id].js
+
+styles/
+├── globals.css
+└── *.module.css
+
+public/
+└── images/
+```
+
+---
+
+# Estilo visual
+
+O projeto possui:
+
+- tema dark fantasy
+- visual inspirado em MMORPG
+- detalhes dourados
+- fundo escuro
+- glow effects
+- interface responsiva
+
+# Objetivo acadêmico
+
+Este projeto foi desenvolvido para a atividade de consumo de API utilizando React e Next.js, aplicando:
+
+- componentização
+- consumo de API pública
+- hooks do React
+- CSS Modules
+- props
+- rotas dinâmicas
+
+# Autor
+
+Projeto desenvolvido para fins acadêmicos.
