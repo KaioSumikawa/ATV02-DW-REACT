@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import styles from '../styles/ClassCard.module.css'
 
-// ClassCard recebe props com os dados da classe e exibe um card estilizado.
 export default function ClassCard({ classData }) {
   return (
     <Link href={`/classes/${classData.id}`} className={styles.card}>

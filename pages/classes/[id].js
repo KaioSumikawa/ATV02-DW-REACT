@@ -10,7 +10,6 @@ export default function ClassPage() {
   const [classInfo, setClassInfo] = useState(null)
   const [loading, setLoading] = useState(true)
 
-  // useEffect carrega a classe específica com base no id da rota.
   useEffect(() => {
     async function loadClass() {
       if (!id) return
