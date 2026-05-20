@@ -1,10 +1,10 @@
 import styles from '../styles/Footer.module.css'
 
-// Footer é um componente simples reutilizável que pode aparecer em várias páginas.
+// Footer é um componente reutilizável que aparece em todas as páginas.
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-      <p>© 2026 AQW Codex. Tema dark fantasy para estudo acadêmico.</p>
+      <p>© 2026 Grim Pokedex. Uma guia arcana de monstros e mistérios.</p>
     </footer>
   )
 }

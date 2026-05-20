@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=MedievalSharp&family=Uncial+Antiqua&display=swap');
+
 :root {
   --bg: #020406;
   --surface: rgba(20, 24, 34, 0.96);
@@ -6,6 +8,10 @@
   --muted: #b8b3a9;
   --accent: #d49f4d;
   --accent-strong: #e3b15c;
+  --gold: #d49f4d;
+  --gold-dark: #8f6a25;
+  --parchment: #efe3cf;
+  --parchment-dark: #d6c3a8;
   --danger: #d15c4d;
   --border: rgba(255, 255, 255, 0.08);
 }
@@ -19,18 +25,8 @@ html, body {
   margin: 0;
   min-height: 100%;
   font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  background: radial-gradient(circle at top, rgba(255, 205, 90, 0.06), transparent 25%),
-    radial-gradient(circle at bottom right, rgba(214, 159, 77, 0.06), transparent 22%),
-    linear-gradient(180deg, #05070d 0%, #070b11 35%, #05080f 100%);
   color: var(--text);
-}
-
-body::before {
-  content: '';
-  position: fixed;
-  inset: 0;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 160 160'%3E%3Cpath fill='none' stroke='%23ffffff' stroke-opacity='0.04' d='M0 0h160v160H0z'/%3E%3Cpath fill='none' stroke='%23ffffff' stroke-opacity='0.04' d='M80 0v160M0 80h160'/%3E%3C/svg%3E") center/contain repeat;
-  pointer-events: none;
+  background: #CEBFA5;
 }
 
 a {
@@ -63,4 +59,23 @@ p {
 
 ::selection {
   background: rgba(212, 159, 77, 0.25);
+}
+
+/* Utility fantasy buttons */
+.btn-fantasy {
+  display: inline-block;
+  padding: 0.45rem 0.9rem;
+  background: linear-gradient(180deg, var(--gold), var(--gold-dark));
+  color: #1b0d05;
+  font-weight: 700;
+  border: 2px solid rgba(0,0,0,0.3);
+  box-shadow: 0 6px 0 rgba(0,0,0,0.35);
+  font-family: 'Cinzel', serif;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.06);
+}
+
+.panel-parchment {
+  background: linear-gradient(180deg, var(--parchment), var(--parchment-dark));
+  border: 4px solid rgba(120,80,30,0.12);
+  padding: 1rem;
 }

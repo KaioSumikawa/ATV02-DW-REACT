@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <rect width="400" height="300" fill="#091119"/>
-  <path d="M100 220 C140 80 260 80 300 220" fill="#111827" stroke="#a84935" stroke-width="10"/>
-  <path d="M140 220 C170 160 230 160 260 220" fill="#151c2d"/>
-  <circle cx="200" cy="120" r="36" fill="#241715" stroke="#e0a15f" stroke-width="8"/>
-  <path d="M180 110 L220 110" stroke="#e0a15f" stroke-width="8"/>
-  <path d="M180 130 L220 130" stroke="#e0a15f" stroke-width="8"/>
-  <text x="200" y="280" text-anchor="middle" fill="#e0a15f" font-family="Arial" font-size="28">Legion Revenant</text>
-</svg>

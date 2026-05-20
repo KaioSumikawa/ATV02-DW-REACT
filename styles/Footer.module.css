@@ -1,11 +1,11 @@
 .footer {
   margin-top: 2rem;
-  padding: 1.5rem 1rem 0;
+  padding: 1.25rem 1rem 0.75rem;
   text-align: center;
-  color: var(--muted);
+  color: #efe3cf;
   font-size: 0.95rem;
+  background: linear-gradient(180deg, #2a0b12, #1a0615);
+  border-top: 3px solid rgba(183,138,47,0.95);
 }
 
-.footer p {
-  margin: 0;
-}
+.footer p { margin: 0; color: var(--parchment); }

@@ -6,7 +6,7 @@
     "role": "DPS / Burst",
     "difficulty": "Avançado",
     "description": "O mestre do void controla as sombras e desata ataques implacáveis. Ideal para jogadores que amam dano rápido e estilo sombrio.",
-    "image": "/images/void-highlord.svg"
+    "image": "/images/void-highlord.png"
   },
   {
     "id": "legion-revenant",
@@ -15,7 +15,7 @@
     "role": "Tank / Suporte",
     "difficulty": "Intermediário",
     "description": "Um revenant forjado na guerra, capaz de absorver dano e proteger aliados com invocações demoníacas.",
-    "image": "/images/legion-revenant.svg"
+    "image": "/images/legion-revenant.png"
   },
   {
     "id": "archpaladin",
@@ -24,16 +24,16 @@
     "role": "Suporte / Cura",
     "difficulty": "Fácil",
     "description": "Sentinela da luz que cura aliados e purifica a escuridão com poderes celestiais e um escudo brilhante.",
-    "image": "/images/archpaladin.svg"
+    "image": "/images/archpaladin.png"
   },
   {
-    "id": "blaze-binder",
+    "id": "blaze-blinder",
     "name": "Blaze Binder",
     "faction": "Fogo",
     "role": "DPS / Controle",
     "difficulty": "Intermediário",
     "description": "Manipulador das chamas que prende inimigos em correntes de fogo ardente e explode com ataques de área.",
-    "image": "/images/blaze-binder.svg"
+    "image": "/images/blaze-blinder.png"
   },
   {
     "id": "lightcaster",
@@ -42,7 +42,7 @@
     "role": "Mago / Suporte",
     "difficulty": "Intermediário",
     "description": "Conjurador de luz capaz de lançar raios sagrados e envolver-se em escudos resplandecentes.",
-    "image": "/images/lightcaster.svg"
+    "image": "/images/lightcaster.png"
   },
   {
     "id": "chaos-avenger",
@@ -51,7 +51,7 @@
     "role": "DPS / Assassino",
     "difficulty": "Avançado",
     "description": "O guerreiro do caos corta a realidade e desfere golpes caóticos que destroem qualquer esperança.",
-    "image": "/images/chaos-avenger.svg"
+    "image": "/images/chaos-avenger.png"
   },
   {
     "id": "stonecrusher",
@@ -60,7 +60,7 @@
     "role": "Tank / Controle",
     "difficulty": "Fácil",
     "description": "Colosso de pedra que esmagam inimigos com terremotos e cria muralhas de rocha para proteção.",
-    "image": "/images/stonecrusher.svg"
+    "image": "/images/stonecrusher.png"
   },
   {
     "id": "dragon-of-time",
@@ -69,6 +69,6 @@
     "role": "Mágico / Suporte",
     "difficulty": "Avançado",
     "description": "Dragão ancestral que dobra o tempo e manipula o campo de batalha com habilidades lendárias.",
-    "image": "/images/dragon-of-time.svg"
+    "image": "/images/dragon-of-time.png"
   }
 ]

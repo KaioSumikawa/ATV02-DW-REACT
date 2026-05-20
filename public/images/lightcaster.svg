@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <rect width="400" height="300" fill="#09111c"/>
-  <path d="M190 240 L210 240 L210 90 L190 90 Z" fill="#d7c079"/>
-  <path d="M130 130 C160 80 240 80 270 130" stroke="#fdf3c7" stroke-width="16" fill="none"/>
-  <path d="M165 105 C180 75 220 75 235 105" stroke="#ffffff" stroke-width="10" fill="none"/>
-  <circle cx="200" cy="100" r="28" fill="#f5e1aa" opacity="0.9"/>
-  <text x="200" y="285" text-anchor="middle" fill="#f5e1aa" font-family="Arial" font-size="28">LightCaster</text>
-</svg>

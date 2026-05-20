@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <rect width="400" height="300" fill="#081019"/>
-  <ellipse cx="200" cy="160" rx="120" ry="90" fill="#1f2532"/>
-  <path d="M200 40 L240 140 L200 150 L160 140 Z" fill="#d4a060"/>
-  <path d="M130 180 L200 70 L270 180" stroke="#f5ebd0" stroke-width="12" fill="none"/>
-  <path d="M170 170 L230 170" stroke="#f5ebd0" stroke-width="10"/>
-  <text x="200" y="285" text-anchor="middle" fill="#f5ebd0" font-family="Arial" font-size="28">ArchPaladin</text>
-</svg>

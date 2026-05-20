@@ -1,51 +1,52 @@
 .card {
   display: grid;
-  gap: 1rem;
-  padding: 1.25rem;
-  border-radius: 28px;
-  background: linear-gradient(180deg, rgba(20, 24, 34, 0.9), rgba(11, 13, 18, 0.95));
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  gap: 0.9rem;
+  padding: 1rem;
+  border-radius: 6px;
+  background: linear-gradient(180deg, rgba(10,10,10,0.95), rgba(18,12,12,0.98));
+  border: 3px solid var(--gold);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.8), inset 0 2px 0 rgba(255,255,255,0.03);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  text-decoration: none;
+}
+
+.card, .card * {
+  text-decoration: none;
 }
 
 .card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.25);
-  border-color: rgba(212, 159, 77, 0.35);
+  transform: translateY(-6px);
+  box-shadow: 0 28px 80px rgba(0,0,0,0.85), 0 0 30px rgba(183,138,47,0.12);
+  border-color: var(--gold-dark);
 }
 
 .media {
   min-height: 220px;
   display: grid;
   place-items: center;
-  background: radial-gradient(circle at top, rgba(212, 159, 77, 0.08), transparent 40%),
-    rgba(255, 255, 255, 0.02);
-  border-radius: 20px;
+  background: repeating-linear-gradient(135deg, rgba(0,0,0,0.15) 0 2px, rgba(0,0,0,0.06) 2px 6px), rgba(20,12,10,0.6);
+  border-radius: 4px;
+  padding: 0.6rem;
+  text-decoration: none;
 }
 
 .media img {
-  width: 100%;
-  height: auto;
-  max-height: 190px;
+  width: auto;
+  height: 220px;
+  object-fit: contain;
 }
 
-.info h3 {
-  font-size: 1.2rem;
-}
+.info h3 { font-size: 1.15rem; font-family: 'Cinzel', serif; color: var(--parchment); }
 
-.info p {
-  color: var(--muted);
-  margin-top: 0.45rem;
-  line-height: 1.65;
-}
+.info p { color: var(--muted); margin-top: 0.4rem; line-height: 1.6; }
 
 .tag {
   display: inline-flex;
-  margin-top: 1rem;
-  padding: 0.4rem 0.85rem;
-  border-radius: 999px;
-  background: rgba(212, 159, 77, 0.12);
-  color: var(--accent);
+  margin-top: 0.9rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 4px;
+  background: var(--parchment);
+  color: #2f1f10;
   font-size: 0.85rem;
   font-weight: 700;
 }

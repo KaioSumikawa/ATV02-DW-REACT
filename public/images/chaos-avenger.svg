@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <rect width="400" height="300" fill="#061018"/>
-  <path d="M130 220 C150 120 250 120 270 220" fill="#151a26"/>
-  <path d="M170 160 L200 80 L230 160" stroke="#8c1b2f" stroke-width="18" fill="none"/>
-  <path d="M160 150 C190 130 210 130 240 150" stroke="#d44d4d" stroke-width="12" fill="none"/>
-  <circle cx="200" cy="170" r="18" fill="#e1a76b"/>
-  <text x="200" y="285" text-anchor="middle" fill="#d44d4d" font-family="Arial" font-size="28">Chaos Avenger</text>
-</svg>

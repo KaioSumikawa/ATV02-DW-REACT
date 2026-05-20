@@ -1,0 +1,26 @@
+.pageShell {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1.25rem 3rem;
+}
+
+.breadcrumbs {
+  margin-bottom: 1.5rem;
+}
+
+.breadcrumbs a {
+  color: #D39E4D;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumbs a:hover {
+  color: #b98934;
+}
+
+.loader {
+  padding: 2.5rem 0;
+  text-align: center;
+  color: var(--muted);
+}

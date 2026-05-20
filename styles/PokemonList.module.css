@@ -1,0 +1,74 @@
+.listSection {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.listHeader {
+  display: grid;
+  gap: 0.5rem;
+  padding: 1.5rem 1.4rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 1.5rem;
+}
+
+.listHeader h2 {
+  font-size: clamp(2rem, 3vw, 2.4rem);
+  color: var(--gold);
+}
+
+.listHeader p {
+  color: var(--muted);
+  max-width: 760px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.skeletonCard {
+  display: grid;
+  gap: 1rem;
+  min-height: 280px;
+  padding: 1.25rem;
+  border-radius: 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+.skeletonHeader,
+.skeletonImage,
+.skeletonFooter {
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.skeletonHeader {
+  width: 65%;
+  height: 1.4rem;
+}
+
+.skeletonImage {
+  width: 100%;
+  height: 180px;
+}
+
+.skeletonFooter {
+  width: 45%;
+  height: 1rem;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.45;
+  }
+  100% {
+    opacity: 1;
+  }
+}

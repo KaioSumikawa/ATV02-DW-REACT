@@ -1,67 +1,53 @@
 .detailShell {
   display: grid;
+  grid-template-columns: 460px 1fr;
   gap: 2rem;
-  padding: 2rem;
-  background: rgba(10, 12, 19, 0.96);
-  border-radius: 28px;
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.22);
+  padding: 1.25rem;
+  background: linear-gradient(180deg, rgba(239,227,207,0.98), rgba(216,200,171,0.95));
+  border: 6px solid rgba(120,80,30,0.95);
+  box-shadow: 0 30px 90px rgba(0,0,0,0.65);
 }
 
 .hero {
   display: grid;
   justify-items: center;
-  background: linear-gradient(180deg, rgba(212, 159, 77, 0.12), rgba(10, 12, 19, 0.9));
-  border-radius: 24px;
-  padding: 1.5rem;
+  background: rgba(40,30,25,0.04);
+  padding: 1rem;
+  border-right: 3px solid rgba(120,80,30,0.12);
 }
 
 .hero img {
-  width: min(100%, 460px);
-  border-radius: 20px;
+  width: 420px;
+  border-radius: 6px;
+  max-height: 520px;
+  height: auto;
+  object-fit: contain;
+  box-shadow: 0 16px 40px rgba(0,0,0,0.7);
 }
 
-.content {
-  display: grid;
-  gap: 1.25rem;
-}
+.content { display: grid; gap: 1rem; }
 
 .faction {
   display: inline-flex;
   padding: 0.35rem 0.8rem;
-  border-radius: 999px;
-  color: var(--accent-strong);
-  background: rgba(212, 159, 77, 0.12);
+  border-radius: 3px;
+  color: #3a0b14;
+  background: var(--parchment);
   font-size: 0.85rem;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
+  font-family: 'MedievalSharp', serif;
 }
 
-.content h1 {
-  font-size: clamp(2rem, 3vw, 3rem);
-}
+.content h1 { font-size: clamp(1.8rem, 3vw, 2.6rem); font-family: 'Cinzel', serif; color: #3a0b14; }
 
-.description {
-  color: var(--muted);
-  line-height: 1.85;
-}
+.description { color: #4a3a2a; line-height: 1.6; background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent); padding: 0.8rem; border-radius: 4px; }
 
-.metaGrid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-}
+.metaGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.8rem; }
 
-.metaGrid h3 {
-  margin-bottom: 0.5rem;
-  color: var(--accent);
-}
+.metaGrid h3 { margin-bottom: 0.35rem; color: var(--gold-dark); }
 
-.metaGrid p {
-  color: var(--text);
-}
+.metaGrid p { color: #3a2b1f; }
 
-@media (max-width: 760px) {
-  .metaGrid {
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 960px) {
+  .detailShell { grid-template-columns: 1fr; }
 }

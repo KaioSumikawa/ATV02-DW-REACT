@@ -2,39 +2,54 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.25rem;
-  background: rgba(6, 10, 18, 0.9);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  padding: 0.9rem 1.25rem;
+  background: linear-gradient(180deg, #291519, #2D1D20);
+  border-bottom: 4px solid rgba(255,255,255,0.08);
+  box-shadow: 0 6px 0 rgba(0,0,0,0.6);
   position: sticky;
   top: 0;
-  z-index: 20;
+  z-index: 50;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.9rem;
   font-weight: 700;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
 }
 
-.glow {
-  color: var(--accent);
-  text-shadow: 0 0 18px rgba(212, 159, 77, 0.35);
+.brand .logo {
+  font-family: 'Cinzel', serif;
+  font-size: 1.6rem;
+  color: var(--parchment);
+  letter-spacing: 0.06em;
+  text-shadow: 0 2px 0 rgba(0,0,0,0.75), 0 0 10px rgba(183,138,47,0.08);
+}
+
+.brand .subtitle {
+  font-family: 'Uncial Antiqua', serif;
+  color: var(--gold);
+  font-size: 0.9rem;
+  margin-left: 0.2rem;
 }
 
 .links {
   display: flex;
-  gap: 1.25rem;
+  gap: 0.9rem;
   font-size: 0.95rem;
 }
 
 .links a {
-  color: var(--muted);
-  transition: color 0.2s ease;
+  color: var(--parchment);
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.04));
+  padding: 0.4rem 0.75rem;
+  border: 1px solid rgba(0,0,0,0.45);
+  box-shadow: inset 0 -6px 0 rgba(0,0,0,0.25);
+  border-radius: 4px;
 }
 
 .links a:hover {
-  color: var(--accent-strong);
+  color: #301200;
+  background: linear-gradient(180deg, var(--gold), var(--gold-dark));
+  box-shadow: 0 6px 18px rgba(183,138,47,0.18);
 }

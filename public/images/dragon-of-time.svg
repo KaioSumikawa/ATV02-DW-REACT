@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
-  <rect width="400" height="300" fill="#05101c"/>
-  <path d="M200 60 C150 50 120 120 140 170 C160 220 240 220 260 170 C280 120 250 50 200 60 Z" fill="#2d4a6b" stroke="#c59c56" stroke-width="10"/>
-  <path d="M160 140 C180 130 220 130 240 140" stroke="#f3d48d" stroke-width="12" fill="none"/>
-  <path d="M200 85 L200 205" stroke="#f3d48d" stroke-width="10"/>
-  <text x="200" y="285" text-anchor="middle" fill="#c59c56" font-family="Arial" font-size="28">Dragon of Time</text>
-</svg>
