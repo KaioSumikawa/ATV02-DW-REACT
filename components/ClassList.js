@@ -1,8 +1,6 @@
 import ClassCard from './ClassCard'
 import styles from '../styles/ClassList.module.css'
 
-// ClassList é um componente de lista que recebe um array de classes via props.
-// Ele é responsável por renderizar um grid de ClassCard.
 export default function ClassList({ classes }) {
   return (
     <section id="classes" className={styles.listSection}>

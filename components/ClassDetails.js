@@ -1,6 +1,5 @@
 import styles from '../styles/ClassDetails.module.css'
 
-// ClassDetails recebe os dados da classe selecionada para renderizar a página de detalhes.
 export default function ClassDetails({ classInfo }) {
   return (
     <section className={styles.detailShell}>
